@@ -3,6 +3,7 @@ module github.com/cosmos/gaia/v4
 go 1.15
 
 require (
+	github.com/99designs/keyring v1.1.6 // indirect
 	github.com/cosmos/cosmos-sdk v0.42.4
 	github.com/gorilla/mux v1.8.0
 	github.com/pkg/errors v0.9.1
@@ -17,3 +18,5 @@ require (
 replace google.golang.org/grpc => google.golang.org/grpc v1.33.2
 
 replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
+
+replace github.com/keybase/go-keychain => github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4
