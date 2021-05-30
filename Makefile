@@ -21,6 +21,7 @@ BUILDDIR ?= $(CURDIR)/build
 TEST_DOCKER_REPO=jackzampolin/gaiatest
 
 export GO111MODULE = on
+export GOROOT =
 
 # process build tags
 
